@@ -1,0 +1,46 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="true" scrollx="-80.09629093228205" scrolly="-77.57104879712301" scale="0.8163265306122448">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id=";jcEmvZd_(zh#{-N$`iz" x="90" y="70">
+      <field name="LOAD_COMP_ASSETS">TRUE</field>
+      <field name="FULLSCREEN">FALSE</field>
+      <field name="BKG_TRANSPARENCY">TRUE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setCSSRuleStyle" id="~Uu7gJ5`IMprA^WPzg-M" x="90" y="290">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PROPERTY">background</field>
+      <field name="PARENT">FALSE</field>
+      <value name="VALUE">
+        <block type="text" id="=sQ,m0*f=@$sb^Oa!f4b">
+          <field name="TEXT">red</field>
+        </block>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="pK(,Ql]VWq4Q1Eb4XV3[">
+          <field name="TEXT">.v3d-simple-preloader-bar</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="setCSSRuleStyle" id="?(jwA[2Uu*$Dw#fC@2P}">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+          <field name="PROPERTY">backgroundImage</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="text" id="VG]gDAp;|nWv~2cx5)3S">
+              <field name="TEXT">url("images/Logo.png")</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="xDpS~e1;6V4e63;!@1o*">
+              <field name="TEXT">.v3d-simple-preloader-logo</field>
+            </shadow>
+          </value>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <tab name="Main" type="CommonTab" active="false" scrollx="20" scrolly="20" scale="0.9"></tab>
+  <tab name="Annotation" type="CommonTab" active="false" scrollx="0" scrolly="0" scale="0.9"></tab>
+  <editorsettings viewport-x="591.5999999999999" viewport-y="37" viewport-w="406.4" viewport-h="266.5" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- __V3D_PUZZLES__ - enable Puzzles button in the App Manager -->
+<!-- __V3D_TEMPLATE__ - template-based file; delete this line to prevent this file from being updated -->
+<html lang="en">
+<head>
+  <title>Hendrickson Web Interactive</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+  <!-- Search Engines -->
+  <meta name="description" content="Hendrickson Interactive 3D Web application. Immerse yourself in amazing graphics experience offered by state-of-the art WebGL and HTML5 technologies.">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Hendrickson Web Interactive">
+  <meta name="twitter:description" content="Hendrickson Interactive 3D Web application. Immerse yourself in amazing graphics experience offered by state-of-the art WebGL and HTML5 technologies.">
+  <meta name="twitter:image:src" content="https://cdn.soft8soft.com/images/player_socials.jpg">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Hendrickson Web Interactive">
+  <meta property="og:description" content="Hendrickson Interactive 3D Web application. Immerse yourself in amazing graphics experience offered by state-of-the art WebGL and HTML5 technologies.">
+  <meta property="og:image" content="https://cdn.soft8soft.com/images/player_socials.jpg">
+  <meta property="og:type" content="website">
+
+  <meta name="generator" content="Verge3D 4.4.0">
+
+  <!-- favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="media/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="media/favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="media/favicon-16x16.png">
+  <link rel="manifest" href="media/manifest.json">
+  <link rel="mask-icon" href="media/safari-pinned-tab.svg" color="#0048a5">
+  <meta name="theme-color" content="#ffffff">
+
+
+  
+  <script src="v3d.js"></script>
+  <script src="AEROCLADAR.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="AEROCLADAR.css">
+</head>
+
+<body>
+  <div id="v3d-container" class="v3d-container">
+    <div id="fullscreen-button" class="fullscreen-button fullscreen-open" title="Toggle fullscreen mode"></div>   
+        
+    <div id="warning_center" class="warning-center">
+      <div id="warning_AR_unavailable" class="warning-AR-unavailable">
+        <img id="warning_AR_unavailable_img" src="./media/warning_AR_unavailable.png">
+      </div>
+      <div id="warning_could_not_enter_AR" class="warning-could-not-enter-AR">
+        <img id="warning_could_not_enter_AR_img" src="./media/warning_AR_enter.png">
+      </div>
+    </div>
+    
+    <div class="configurator-panel">
+      <div class="buttons-panel">    
+        <div class="right-panel">
+          <a class="enter_AR_button" id="enter_AR_button"><img id="enter_AR_img" src="./media/EnterAR.png"></a>
+          <div class="square-button" id="zoomIn" style="background-image: url('media/ZoomIn.png');"></div>
+          <div class="square-button" id="zoomOut" style="background-image: url('media/ZoomOut.png');"></div>
+          <div class="circle-button" id="annotation" style="background-image: url('media/Annotation.png');"></div>
+          <div class="circle-button" id="reset" style="background-image: url('media/Refresh.png');"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
